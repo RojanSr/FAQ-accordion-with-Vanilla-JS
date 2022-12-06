@@ -1,3 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
-/* font-family: 'Kumbh Sans', sans-serif; */
+
+/* Custom properties */
+
+:root{
+    --txt-primary-dark: hsl(238, 29%, 16%);
+    --txt-primary-orange: hsl(14, 88%, 65%);
+
+    --txt-neutral-gray: hsl(237, 12%, 33%);
+    --txt-neutral-lightgray: hsl(240, 6%, 50%);
+
+    --border-clr-divider: hsl(240, 5%, 91%);
+
+    --gradient-violet: hsl(273, 75%, 66%);
+    --gradient-blue: hsl(240, 73%, 65%);
+}
+
+/* css reset */
+*,*::after, *::before{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 800px;
+    height: 400px;
+    background-color: red;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.even-columns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.illustration-img{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+}
+
+.faq-section{
+    height: 300px;
+    width: 350px;
+
+}
+
+.faq-section h1{
+    color: var(--txt-primary-dark);
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.faq-section .questions-container{
+    color: var(--txt-neutral-gray);
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+}
+.faq-answer{
+    display: none;
+}
+
+details > summary {
+    list-style: none;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
