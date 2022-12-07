@@ -159,7 +159,7 @@ body{
 }
 
 .master-div p{
-    max-width: 290px;
+    max-width: 265px;
     font-size: 0.8rem;
     color: var(--txt-neutral-lightgray);
     margin: 8px 0px;
