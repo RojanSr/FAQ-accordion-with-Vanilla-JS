@@ -12,6 +12,7 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <title>Frontend Mentor | FAQ Accordion Card</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -42,7 +43,7 @@
 
               <div class="questions-container">
 
-                <div class="master-div" onclick="">
+                <div class="master-div" id="one" onclick="showAnswerOne()">
                   <div class="even-columns">
                     <h2 class="question">
                       How many team members can I invite?
@@ -55,7 +56,7 @@
                   </p>
                 </div>
 
-                <div class="master-div" onclick="">
+                <div class="master-div" id="two" onclick="showAnswerTwo()">
                   <div class="even-columns">
                     <h2 class="question">
                       What is the maximum file upload size?
@@ -68,20 +69,20 @@
                   </p>
                 </div>
 
-                <div class="master-div" onclick="">
+                <div class="master-div" id="three" onclick="showAnswerThree()">
                   <div class="even-columns">
                     <h2 class="question">
                       How do I reset my password?
                     </h2>
                     <img src="images/icon-arrow-down.svg" alt="" />
                   </div>
-                  <p style="display: block;">
+                  <p>
                     Click “Forgot password” from the login page or “Change password” from your profile page.
                     A reset link will be emailed to you.
                   </p>
                 </div>
 
-                <div class="master-div" onclick="">
+                <div class="master-div" id="four" onclick="showAnswerFour()">
                   <div class="even-columns">
                     <h2 class="question">
                       Can I cancel my subscription?
@@ -93,7 +94,7 @@
                   </p>
                 </div>
 
-                <div class="master-div" onclick="">
+                <div class="master-div" id="five" onclick="showAnswerFive()">
                   <div class="even-columns">
                     <h2 class="question">
                       Do you provide additional support?

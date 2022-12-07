@@ -38,6 +38,7 @@ body{
     align-items: center;
     height: 100vh;
     background: linear-gradient(var(--gradient-violet), var(--gradient-blue));
+    overflow: hidden;
 }
 
 .container{
@@ -162,6 +163,6 @@ body{
     max-width: 265px;
     font-size: 0.8rem;
     color: var(--txt-neutral-lightgray);
-    margin: 8px 0px;
+    margin: 4px 0px;
     display: none;
 }
