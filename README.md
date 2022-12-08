@@ -28,7 +28,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshot/Screenshot%202022-12-08%20at%2013-30-29%20Frontend%20Mentor%20FAQ%20Accordion%20Card.png)
+![Desktop](screenshot/desktopss.png)
+
+![Mobile](screenshot/mobiless.png)
+
 
 ### Links
 
