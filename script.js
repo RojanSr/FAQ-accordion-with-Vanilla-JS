@@ -21,6 +21,9 @@ function showAnswerOne() {
     if (isActivated === true) {
       document.getElementById("one").children[0].children[0].style.fontWeight =
         "700";
+      document.getElementById("one").children[0].children[0].style.color =
+        "var(--txt-primary-dark)";
+
       document.getElementById("one").children[1].style.display = "block";
 
       //remove all attribute but activate your own
@@ -31,12 +34,17 @@ function showAnswerOne() {
         document.getElementById(
           "one"
         ).children[0].children[0].style.fontWeight = "700";
+        document.getElementById("one").children[0].children[0].style.color =
+          "var(--txt-primary-dark)";
+
         document.getElementById("one").children[1].style.display = "block";
       }
       isActivated = true;
     } else {
       document.getElementById("one").children[0].children[0].style.fontWeight =
         "700";
+      document.getElementById("one").children[0].children[0].style.color =
+        "var(--txt-primary-dark)";
       document.getElementById("one").children[1].style.display = "block";
       isActivated = true;
     }
@@ -56,24 +64,31 @@ function showAnswerTwo() {
     if (isActivated === true) {
       document.getElementById("two").children[0].children[0].style.fontWeight =
         "700";
+      document.getElementById("two").children[0].children[0].style.color =
+        "var(--txt-primary-dark)";
+
       document.getElementById("two").children[1].style.display = "block";
 
       //remove all attribute but activate your own
       for (const index in masterDiv) {
         masterDiv[index].children[0].children[0].removeAttribute("style");
         masterDiv[index].children[1].removeAttribute("style");
-      
 
         document.getElementById(
           "two"
         ).children[0].children[0].style.fontWeight = "700";
+        document.getElementById("two").children[0].children[0].style.color =
+          "var(--txt-primary-dark)";
+
         document.getElementById("two").children[1].style.display = "block";
       }
-        isActivated = true;
-      
+      isActivated = true;
     } else {
       document.getElementById("two").children[0].children[0].style.fontWeight =
         "700";
+      document.getElementById("two").children[0].children[0].style.color =
+        "var(--txt-primary-dark)";
+
       document.getElementById("two").children[1].style.display = "block";
       isActivated = true;
     }
@@ -91,8 +106,12 @@ function showAnswerThree() {
     document.getElementById("three").children[1].removeAttribute("style");
   } else {
     if (isActivated === true) {
-      document.getElementById("three").children[0].children[0].style.fontWeight =
-        "700";
+      document.getElementById(
+        "three"
+      ).children[0].children[0].style.fontWeight = "700";
+      document.getElementById("three").children[0].children[0].style.color =
+        "var(--txt-primary-dark)";
+
       document.getElementById("three").children[1].style.display = "block";
 
       //remove all attribute but activate your own
@@ -103,12 +122,19 @@ function showAnswerThree() {
         document.getElementById(
           "three"
         ).children[0].children[0].style.fontWeight = "700";
+        document.getElementById("three").children[0].children[0].style.color =
+          "var(--txt-primary-dark)";
+
         document.getElementById("three").children[1].style.display = "block";
       }
       isActivated = true;
     } else {
-      document.getElementById("three").children[0].children[0].style.fontWeight =
-        "700";
+      document.getElementById(
+        "three"
+      ).children[0].children[0].style.fontWeight = "700";
+      document.getElementById("three").children[0].children[0].style.color =
+        "var(--txt-primary-dark)";
+
       document.getElementById("three").children[1].style.display = "block";
       isActivated = true;
     }
@@ -128,6 +154,9 @@ function showAnswerFour() {
     if (isActivated === true) {
       document.getElementById("four").children[0].children[0].style.fontWeight =
         "700";
+      document.getElementById("four").children[0].children[0].style.color =
+        "var(--txt-primary-dark)";
+
       document.getElementById("four").children[1].style.display = "block";
 
       //remove all attribute but activate your own
@@ -138,12 +167,18 @@ function showAnswerFour() {
         document.getElementById(
           "four"
         ).children[0].children[0].style.fontWeight = "700";
+        document.getElementById("four").children[0].children[0].style.color =
+          "var(--txt-primary-dark)";
+
         document.getElementById("four").children[1].style.display = "block";
       }
       isActivated = true;
     } else {
       document.getElementById("four").children[0].children[0].style.fontWeight =
         "700";
+      document.getElementById("four").children[0].children[0].style.color =
+        "var(--txt-primary-dark)";
+
       document.getElementById("four").children[1].style.display = "block";
       isActivated = true;
     }
@@ -163,6 +198,9 @@ function showAnswerFive() {
     if (isActivated === true) {
       document.getElementById("five").children[0].children[0].style.fontWeight =
         "700";
+      document.getElementById("five").children[0].children[0].style.color =
+        "var(--txt-primary-dark)";
+
       document.getElementById("five").children[1].style.display = "block";
 
       //remove all attribute but activate your own
@@ -173,12 +211,18 @@ function showAnswerFive() {
         document.getElementById(
           "five"
         ).children[0].children[0].style.fontWeight = "700";
+        document.getElementById("five").children[0].children[0].style.color =
+          "var(--txt-primary-dark)";
+
         document.getElementById("five").children[1].style.display = "block";
       }
       isActivated = true;
     } else {
       document.getElementById("five").children[0].children[0].style.fontWeight =
         "700";
+      document.getElementById("five").children[0].children[0].style.color =
+        "var(--txt-primary-dark)";
+
       document.getElementById("five").children[1].style.display = "block";
       isActivated = true;
     }
