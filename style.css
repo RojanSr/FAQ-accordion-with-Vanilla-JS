@@ -210,8 +210,7 @@ body {
   font-size: 0.9rem;
   font-weight: 400;
   color: var(--txt-neutral-gray);
-  margin: 8px 0px;
-  /* cursor: pointer; */
+  margin: 12px 0px;
 }
 
 .question:hover {
