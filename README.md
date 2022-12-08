@@ -91,7 +91,7 @@ Ofcourse! It could've been much more cleaner and less complicated but I'm learni
 
 ## Author
 
-- Email - [Rojan Rai](rojanrai1116@gmail.com)
+- Email - rojanrai1116@gmail.com
 
 ## Acknowledgments
 
